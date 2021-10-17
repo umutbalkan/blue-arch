@@ -12,7 +12,7 @@ table_company = "comp1"
 Selenium::WebDriver.logger.level = :error
 # Input
 if ARGV.length != 1
-    puts "Usage: ruby main.rb <linkedin-URL-of-Company>"
+    puts "Usage: ruby keystone.rb <linkedin-URL-of-Company>"
     exit(true)
 end
 
