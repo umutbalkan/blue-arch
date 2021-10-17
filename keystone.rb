@@ -173,7 +173,3 @@ while cur_page <= max_pages
 end
 
 puts "== End of Employee list. Total of #{temp_counter} employees."
-
-#Emp1.all.each do |record|
-#    puts "#{record.id}: #{record["Geolocation"]} #{record["Role"]} #{record["Username"]}"
-#end
